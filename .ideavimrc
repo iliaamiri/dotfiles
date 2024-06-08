@@ -1,0 +1,44 @@
+" set
+set visualbell
+set noerrorbells
+
+set scrolloff=5
+
+set incsearch
+set relativenumber number
+set multicursor
+
+set nohlsearch
+set incsearch
+
+set guicursor=a:block
+
+let mapleader=" "
+
+" remap
+nnoremap <C-u> <C-u>zz
+nnoremap <C-d> <C-d>zz
+
+map <C-x> <action>(ShowErrorDescription)
+
+nnoremap <leader>pv :Ex<CR>
+
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
+
+nnoremap J mzJ`z
+nnoremap n nzzzv
+nnoremap N Nzzzv
+
+nnoremap <leader>y "+y
+vnoremap <leader>y "+y
+nnoremap <leader>Y "+Y
+
+nnoremap <leader>d "_d
+vnoremap <leader>d "_d
+
+" Commented out as it is not directly convertible:
+" inoremap <C-c> <Esc>
+
+nnoremap <leader>f :call v:lua.vim.lsp.buf.format()<CR>
+
