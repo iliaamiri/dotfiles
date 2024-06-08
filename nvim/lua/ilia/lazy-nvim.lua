@@ -62,4 +62,6 @@ require("lazy").setup({
 	},
 
 	{ "m4xshen/autoclose.nvim" },
+
+	{ "preservim/nerdcommenter" },
 })
