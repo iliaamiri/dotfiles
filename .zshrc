@@ -166,3 +166,6 @@ export PATH=/home/ilia/.sst/bin:$PATH
 if [[ -r /usr/share/powerline/bindings/zsh/powerline.zsh ]]; then
 source /usr/share/powerline/bindings/zsh/powerline.zsh
 fi
+
+# PHP Composer
+export PATH="$HOME/.config/composer/vendor/bin:$PATH"
