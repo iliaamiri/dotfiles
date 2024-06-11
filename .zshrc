@@ -169,3 +169,8 @@ fi
 
 # PHP Composer
 export PATH="$HOME/.config/composer/vendor/bin:$PATH"
+
+# Alias for copying to the clipboard
+alias c='xclip -selection clipboard'
+# Alias for pasting from the clipboard
+alias p='xclip -selection clipboard -o'
