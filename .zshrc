@@ -106,6 +106,8 @@ source $ZSH/oh-my-zsh.sh
 
 #PROMPT='%F{green}%n@%m%f %F{blue}%~%f $ '
 
+setopt NO_BEEP
+
 alias tmuxad='tmux attach -t default || tmux new -s default'
 
 # some more ls aliases
