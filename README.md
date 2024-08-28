@@ -38,7 +38,7 @@ source ~/.zshrc
 sudo apt install tmux -y
 
 cp -r .tmux ~
-cp .tmux.config ~
+cp .tmux.conf ~
 
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 git clone git@github.com:catppuccin/tmux.git ~/.tmux/plugins/catppuccin
