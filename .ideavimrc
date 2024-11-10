@@ -29,18 +29,20 @@ map <leader>vd  <action>(SafeDelete)
 map <leader>e   <action>(Switcher)
 map <leader>rnf <action>(RenameFile)
 
+" run/debug
 map <leader>rn  <action>(Run)
 map <leader>rd  <action>(Debug)
 map <leader>rs  <action>(Stop)
 map <leader>rcd  <action>(ChooseDebugConfiguration)
 map <leader>rcr  <action>(ChooseRunConfiguration)
 
+" fuzzy finders
 map <leader>ps  <action>(Find)
 map <leader>pf  <action>(FindInPath)
 map <leader>psc <action>(FindUsages)
 map <leader>s   <action>(SearchEverywhere)
 
-nnoremap <leader>pv :Ex<CR>
+map <leader>pv <action>(ActivateProjectToolWindow) 
 
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
