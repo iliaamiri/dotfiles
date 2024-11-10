@@ -19,23 +19,19 @@ let mapleader=" "
 nnoremap <C-u> <C-u>zz
 nnoremap <C-d> <C-d>zz
 
+" jetbrains actions
 map <leader>vse <action>(ShowErrorDescription)
 map <leader>vca <action>(ShowIntentionActions)
 map <leader>vrf <action>(RefactoringMenu)
 map <leader>vrr <action>(ShowUsages)
 map <leader>vrn <action>(RenameElement)
 map <leader>vd  <action>(SafeDelete)
-
 map <leader>e   <action>(Switcher)
-
 map <leader>rnf <action>(RenameFile)
-
 map <leader>dbg <action>(Debug)
-
 map <leader>ps  <action>(Find)
 map <leader>pf  <action>(FindInPath)
 map <leader>psc <action>(FindUsages)
-
 map <leader>s   <action>(SearchEverywhere)
 
 nnoremap <leader>pv :Ex<CR>
