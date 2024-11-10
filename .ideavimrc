@@ -28,8 +28,13 @@ map <leader>vrn <action>(RenameElement)
 map <leader>vd  <action>(SafeDelete)
 map <leader>e   <action>(Switcher)
 map <leader>rnf <action>(RenameFile)
+
+map <leader>rn  <action>(Run)
 map <leader>rd  <action>(Debug)
 map <leader>rs  <action>(Stop)
+map <leader>rcd  <action>(ChooseDebugConfiguration)
+map <leader>rcr  <action>(ChooseRunConfiguration)
+
 map <leader>ps  <action>(Find)
 map <leader>pf  <action>(FindInPath)
 map <leader>psc <action>(FindUsages)
