@@ -22,8 +22,11 @@ nnoremap <C-d> <C-d>zz
 map <leader>vse <action>(ShowErrorDescription)
 map <leader>vca <action>(ShowIntentionActions)
 map <leader>vrf <action>(RefactoringMenu)
+map <leader>vrr <action>(ShowUsages)
 map <leader>vrn <action>(RenameElement)
 map <leader>vd  <action>(SafeDelete)
+
+map <leader>e   <action>(Switcher)
 
 map <leader>rnf <action>(RenameFile)
 
